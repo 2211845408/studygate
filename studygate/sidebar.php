@@ -54,7 +54,7 @@
                     </a>
                     <ul class="nav nav-treeview" style="display: none;">
                         <li class="nav-item">
-                            <a href="/studygate/pages/classrooms/add-class.php" class="nav-link">
+                            <a href="/studygate/pages/admin/new-semester.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     الفصول الدراسية
@@ -74,7 +74,7 @@
                     </a>
                     <ul class="nav nav-treeview" style="display: none;">
                         <li class="nav-item">
-                            <a href="./index.html" class="nav-link">
+                            <a href="/studygate/pages/admin/show-students.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     الطلاب
@@ -94,7 +94,7 @@
                     </a>
                     <ul class="nav nav-treeview" style="display: none;">
                         <li class="nav-item">
-                            <a href="/studygate/pages/professors-subjects/show-professors.php" class="nav-link">
+                            <a href="/studygate/pages/admin/show-professors.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     المعلمون
@@ -103,7 +103,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="/studygate/pages/professors-subjects/professors-subjects.php" class="nav-link">
+                            <a href="/studygate/pages/admin/customize-professors.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     تخصيص المعلمون
@@ -123,7 +123,7 @@
                     </a>
                     <ul class="nav nav-treeview" style="display: none;">
                         <li class="nav-item">
-                            <a href="/studygate/pages/study-subjects/show-subject.php" class="nav-link">
+                            <a href="/studygate/pages/admin/show-subject.php" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>
                                     المواد الدراسية
@@ -152,7 +152,7 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="/studygate/pages/lectures-schedules/show-schedules.php" class="nav-link">
+                                    <a href="/studygate/pages/admin/show-schedules-lecture.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             عرض الجداول
@@ -161,10 +161,10 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="/studygate/pages/lectures-schedules/add-lectures.php" class="nav-link">
+                                    <a href="/studygate/pages/admin/add-lectures.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
-                                            اضافة الجداول
+                                            اضافة محاضرات
                                         </p>
                                     </a>
                                 </li>
@@ -180,7 +180,7 @@
                             </a>
                             <ul class="nav nav-treeview" style="display: none;">
                                 <li class="nav-item">
-                                    <a href="/studygate/pages/exam-schedules/show-schedules.php" class="nav-link">
+                                    <a href="/studygate/pages/admin/show-schedules-exams.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
                                             عرض الجداول
@@ -189,10 +189,10 @@
                                 </li>
 
                                 <li class="nav-item">
-                                    <a href="/studygate/pages/exam-schedules/add-exam.php" class="nav-link">
+                                    <a href="/studygate/pages/admin/add-exam.php" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
-                                            اضافة الجداول
+                                            اضافة امتحان
                                         </p>
                                     </a>
                                 </li>
