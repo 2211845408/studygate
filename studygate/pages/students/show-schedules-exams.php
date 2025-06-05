@@ -5,48 +5,42 @@ include "../../head.php";
 ?>
 
 <body class="hold-transition sidebar-mini sidebar-collapse">
-    <div class="wrapper">
-        <!-- Navbar -->
-        <?php
+<div class="wrapper">
+  <!-- Navbar -->
+  <?php
         include "../../navbar.php";
         ?>
-        <!-- /.navbar -->
+  <!-- /.navbar -->
 
-        <!-- Main Sidebar Container -->
-        <?php
-        include "../../sidebar.php";
+  <!-- Main Sidebar Container -->
+  <?php
+        include "../../sidebar-std.php";
         ?>
 
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper">
-            <!-- Content Header (Page header) -->
-            <section class="content-header">
-                <div class="container-fluid">
-                    <div class="row mb-2">
-                        <div class="col-sm-6">
+  <!-- Content Wrapper. Contains page content -->
+  <!-- داخل content-wrapper -->
+<!-- داخل content-wrapper -->
+<div class="content-wrapper">
+  <!-- Content Header -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col text-center">
+          <h2>
+            <i class="fas fa-calendar-alt ml-1"></i>
+            جدول الامتحانات  - فصل ربيع 2025
+        </h2>
+        </div>
+      </div>
+    </div>
+  </section>
 
-                        </div>
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Study Materials </li>
-                            </ol>
-                        </div>
-                    </div>
-                </div><!-- /.container-fluid -->
-            </section>
-
-            <!-- Main content -->
-            <section class="content">
+  <!-- Main content -->
+  <section class="content">
                 <div class="container-fluid">
                    
                     <div class="card card-primary card-outline">
-                        <div class="card-header">
-                            <h3 class="card-title">
-                                <i class="fas fa-calendar-alt ml-1"></i>
-                                جدول المحاضرات الكلية - فصل ربيع 2025
-                            </h3>
-                        </div>
+                        
                         <div class="card-body">
 
 
@@ -128,22 +122,20 @@ include "../../head.php";
                     </div>
                 </div>
             </section>
+</div>
 
 
+  <!-- /.content-wrapper -->
 
-            <!-- /.content -->
-        </div>
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
 
-
-
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
-        <!-- /.control-sidebar -->
-    </div>
-    <!-- ./wrapper -->
-    </script>
+</script>
     <!-- jQuery -->
     <script src="../../plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
@@ -157,6 +149,6 @@ include "../../head.php";
     <!-- JS DataTables -->
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 
-</body>
 
+</body>
 </html>
